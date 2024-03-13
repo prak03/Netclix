@@ -1,10 +1,12 @@
 
 const getMovies = async () => {
     const url = 'https://imdb146.p.rapidapi.com/v1/find/?query=game';
+    const apiKey = process.env.NEXT_PUBLIC_API_KEY || '';
+    console.log(process.env)
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '7efa13f128msh7465af97cb3ff16p1aaf50jsna66fb787fbf7',
+            'X-RapidAPI-Key': apiKey,
             'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
         }
     };

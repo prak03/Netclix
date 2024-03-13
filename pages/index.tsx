@@ -42,10 +42,6 @@ const Home = () => {
   }, []); // Empty dependency array means this effect runs once on mount
 
   console.log("Movies:", myMovies);
-  if (myMovies!=null)
-  {
-    console.log(myMovies.titleResults.results)
-  }
 
   const { data: movies = [] } = useMovieList();
   const { data: favorites = [] } = useFavorites();

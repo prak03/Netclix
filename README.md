@@ -1,20 +1,8 @@
 # Netclix
 
-This is a FullStack Netflix Clone tutorial using React, NextJS, MonggoDB, TailwindCSS & Prisma.
+This is a FullStack Netflix Clone tutorial using React, NextJS, MonggoDB, TailwindCSS & Prisma. We created a database with mongodb and connected it through prisma. Authentication is done with NextAuth, google and github. It also has cookie based authentication. 
 
 ![image](https://user-images.githubusercontent.com/23248726/220005380-ede4fb14-0b8d-4582-a063-3cc4beeccfb7.png)
-
-
-Features:
-
-- Environment, Typescript, NextJS Setup
-- MongoDB & Prisma connect, Database creation
-- Authentication with NextAuth, Google & Github Login
-- Full responsiveness on all pages
-- Cookie based authentication
-- API and Controllers creation
-- Styling and animations using TailwindCSS
-- React SWR data fetching
 
 ### Prerequisites
 
@@ -37,6 +25,7 @@ GITHUB_ID=
 GITHUB_SECRET=
 NEXTAUTH_JWT_SECRET=
 NEXTAUTH_SECRET=
+NEXT_PUBLIC_API_KEY=
 ```
 
 ### Start the app
@@ -52,5 +41,3 @@ Running commands with npm `npm run [command]`
 | command         | description                              |
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
-
-goDB
